@@ -1,0 +1,29 @@
+@bgc: background-color;
+@w: width;
+@h: height;
+#topBanner {
+  @{w}: 100%;
+  @{h}: 80px;
+  @{bgc}: #ea0068;
+  overflow: hidden;
+  .layout {
+    @{w}: 1200px;
+    @{h}: 100%;
+    margin: 0px auto;
+    position: relative;
+    #topClose {
+      cursor: pointer;
+      @{w}: 20px;
+      @{h}: 20px;
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      @{bgc}: rgba(45, 45, 45, 0.3);
+      line-height: 20px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      color: rgba(255, 255, 255, 0.3)
+    }
+  }
+}
