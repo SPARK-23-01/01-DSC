@@ -1,0 +1,58 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "564939",
+      "name": "share",
+      "font_class": "share",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "577409",
+      "name": "list",
+      "font_class": "weibiao45127",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "587941",
+      "name": "foot",
+      "font_class": "foot",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "980436",
+      "name": "flag",
+      "font_class": "flag",
+      "unicode": "e6e4",
+      "unicode_decimal": 59108
+    },
+    {
+      "icon_id": "6345991",
+      "name": "safe",
+      "font_class": "safe",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "11537857",
+      "name": "star",
+      "font_class": "star",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "14507969",
+      "name": "Cart",
+      "font_class": "Cart",
+      "unicode": "e6df",
+      "unicode_decimal": 59103
+    }
+  ]
+}

@@ -2,6 +2,7 @@ header {
   width: 1200px;
   height: 126px;
   margin: 0px auto;
+  position: relative;
 }
 header #logo {
   width: 232px;
@@ -16,4 +17,70 @@ header #site-nav {
   height: 30px;
   background-color: #eee;
   float: left;
+}
+header #topSearch {
+  width: 470px;
+  height: 35px;
+  float: left;
+  position: relative;
+}
+header #topSearch input {
+  width: 470px;
+  height: 33px;
+  outline: none;
+  border: 1px solid red;
+  margin: 20px 0px 0px 60px;
+  padding: 0px 0px 0px 10px;
+  font-size: 12px;
+}
+header #topSearch button {
+  width: 70px;
+  height: 33px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  position: absolute;
+  left: 460px;
+  top: 20px;
+}
+header #topSearch button:last-of-type {
+  background-color: darkred;
+  left: 540px;
+}
+header #topSearch ul {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+header #topSearch ul,
+header #topSearch li {
+  list-style: none;
+  float: left;
+  padding: 5px;
+  color: #999;
+  font-size: 12px;
+}
+header #myCart {
+  width: 175px;
+  height: 33px;
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  border: 1px solid lightgray;
+  line-height: 33px;
+  padding: 0px 7px;
+  text-align: center;
+  color: red;
+}
+header #myCart .con {
+  width: 300px;
+  height: 110px;
+  border: 1px solid lightgray;
+  position: absolute;
+  top: 32px;
+  right: -1px;
+  display: none;
 }

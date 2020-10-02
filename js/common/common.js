@@ -6,3 +6,11 @@ $("#topClose").click(function () {
     height: 0,
   });
 });
+$("#myCart").hover(
+  function () {
+    $(this).children().eq(1).fadeIn();
+  },
+  function () {
+    $(this).children().eq(1).fadeOut();
+  }
+);
