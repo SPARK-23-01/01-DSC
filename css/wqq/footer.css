@@ -1,0 +1,237 @@
+/* 承诺 */
+.promise{
+    width: 100%;
+    height: 80px;
+    background-color: #EEEEEE;
+    
+}
+.promise-core{
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+}
+.promise1,.promise2,.promise3,.promise4,.promise5,.telephone{
+    width: 180px;
+    height: 32px;
+    margin-right: 10px;
+}
+.promise1{
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+.promise1 i,.promise2 i,.promise3 i,.promise4 i,.promise5 i,.telephone i,.service i{
+    display: inline-block;
+    width: 34px;
+    height: 32px;
+}
+.promise1 i{
+    background: url(../img/footer_new_icon.png) no-repeat ;
+}
+.promise1 span,.promise2 span,.promise3 span,.promise4 span,.promise5 span{
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    font-size: 18px;
+    color: #8888A2;
+    position: absolute;
+    top: 6px;
+    left: 45px;
+}
+.promise2{
+    position: absolute;
+    top: 30px;
+    left: 180px;
+}
+.promise2 i{
+    background: url(../img/footer_new_icon.png) no-repeat -34px 0px;
+}
+.promise3{
+    position: absolute;
+    top: 30px;
+    left: 360px;
+}
+.promise3 i{
+    background: url(../img/footer_new_icon.png) no-repeat -68px 0px;
+}.promise4{
+    position: absolute;
+    top: 30px;
+    left: 540px;
+}
+.promise4 i{
+    background: url(../img/footer_new_icon.png) no-repeat -100px 0px;
+}.promise5{
+    position: absolute;
+    top: 30px;
+    left: 720px;
+}
+.promise5 i{
+    background: url(../img/footer_new_icon.png) no-repeat -135px 0px;
+}
+.telephone{
+    margin-left: 10px;
+    position: absolute;
+    top: 30px;
+    right: 115px;
+    /* border: 1px solid rebeccapurple; */
+}
+.telephone i{
+    background: url(../img/footer_new_icon.png) no-repeat 0px -100px;
+}
+.telephone span{
+    width: 100px;
+    height: 32px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #000;
+    position: absolute;
+    top: 6px;
+    left: 40px;
+}
+.service{
+    width: 115px;
+    height: 32px;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    /* border: 1px solid rebeccapurple; */
+}
+.service i{
+    background: url(../img/footer_new_icon.png) no-repeat 0px -135px;
+}
+.service span{
+    width: 80px;
+    height: 32px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    position: absolute;
+    top: 6px;
+    left: 40px;
+}
+/* 页脚 */
+.footer1{
+    width: 100%;
+    height: 192px;
+    background-color: #262626;
+}
+.footer1-core{
+    width: 1200px;
+    height: 195px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding: 30px 0px 0px;
+    /* border-bottom: 1px solid #464646; */
+    position: relative;
+}
+.warp{
+    width: 170px;
+    height: 132px;
+    color: #CCCCCC;
+    float: left;
+    margin-right: 10px;
+}
+.warp > h3{
+    font-size: 17px;
+    color: #FFFFFF;
+    font-weight: 600;
+    margin: 0 0 30px 0;
+}
+.warp ul{
+    padding: 0;
+}
+.warp li{
+    width: 170px;
+    height: 37px;
+    font-size: 15px;
+    list-style: none;
+    cursor: pointer;
+}
+.warp li:hover{
+    color: red;
+}
+.qr1,.qr2{
+    width: 108px;
+    height: 128px;
+    background-color: #fff;
+    padding: 2px;
+}
+.qr1{
+    position: absolute;
+    top: 30px;
+    right: 170px;
+}
+.qr1 img,.qr2 img{
+    width: 104px;
+    height: 104px;
+}
+.qr1-text,.qr2-text{
+    width: 104px;
+    height: 20px;
+    background-color: #121212;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 20px;
+}
+.qr2{
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+/* 二 */
+.footer2{
+    width: 100%;
+    height: 190px;
+    background-color: #262626;
+}
+.footer2-core{
+    width: 1200px;
+    height: 70px;
+    padding: 80px 0 0;
+    margin: 0 auto;
+    position: relative;
+    /* border: 1px solid wheat; */
+}
+.link1,.link2{
+    width: 100%;
+    height: 18px;
+    text-align: center;
+    font-size: 12px;
+}
+.link1 a,.link2 a{
+    display: inline-block;
+    height: 18px;
+    color: #888888;
+}
+.link1 a:hover,.link2 a:hover{
+    text-decoration: none;
+    color: red;
+}
+.link1 span,.link2 span{
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    margin: 0 17px;
+    background-color: #888888;
+}
+.link2{
+    margin-top: 10px;
+}
+.copyright{
+    width: 100%;
+    height: 18px;
+    text-align: center;
+    line-height: 18px;
+    color: #4C4C4C;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.copyright a{
+    color: #4C4C4C;
+}
+.copyright a:hover{
+    color: red;
+    text-decoration: none;
+}
